@@ -1,0 +1,58 @@
+Internal Server Error: /api/todos/create
+Traceback (most recent call last):
+  File "/media/amar/1C6096176095F7AA/Django-React/djnoreact/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/amar/1C6096176095F7AA/Django-React/djnoreact/lib/python3.11/site-packages/django/utils/deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/amar/1C6096176095F7AA/Django-React/djnoreact/lib/python3.11/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/amar/1C6096176095F7AA/Django-React/djnoreact/lib/python3.11/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/api/todos/create/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+An error occurred: module 'requests' has no attribute 'data'
+Internal Server Error: /api/todo/create/
+An error occurred: object of type 'NoneType' has no len()
+Internal Server Error: /api/todo/create/
+An error occurred: NOT NULL constraint failed: todo_todo.title
+Internal Server Error: /api/todo/create/
+An error occurred: NOT NULL constraint failed: todo_todo.title
+Internal Server Error: /api/todo/create/
+An error occurred: NOT NULL constraint failed: todo_todo.title
+Internal Server Error: /api/todo/create/
+An error occurred: module 'requests' has no attribute 'data'
+Internal Server Error: /api/todo/lists/
+An error occurred: module 'requests' has no attribute 'data'
+Internal Server Error: /api/todo/lists/
+An error occurred: module 'requests' has no attribute 'data'
+Internal Server Error: /api/todo/lists/
+Internal Server Error: /api/todo/update
+Traceback (most recent call last):
+  File "/media/amar/1C6096176095F7AA/Django-React/djnoreact/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/media/amar/1C6096176095F7AA/Django-React/djnoreact/lib/python3.11/site-packages/django/utils/deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/amar/1C6096176095F7AA/Django-React/djnoreact/lib/python3.11/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/amar/1C6096176095F7AA/Django-React/djnoreact/lib/python3.11/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to localhost:8000/api/todo/update/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+An error occurred: No Todo matches the given query.
+Internal Server Error: /api/todo/update/
+An error occurred: No Todo matches the given query.
+Internal Server Error: /todo/api/update/
+An error occurred: No Todo matches the given query.
+Internal Server Error: /todo/api/retrieve/
+An error occurred: No Todo matches the given query.
+Internal Server Error: /todo/api/update/
+An error occurred: No Todo matches the given query.
+Internal Server Error: /todo/api/retrieve/
+An error occurred: No Todo matches the given query.
+Internal Server Error: /todo/api/retrieve/
+An error occurred: No Todo matches the given query.
+Internal Server Error: /todo/api/retrieve/
